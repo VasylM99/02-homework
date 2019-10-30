@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW#2 Muran Vasyl</title>
+    
+</head>
+<body>
+    <div>
+    <table  border="1">
+        <tbody>
+            <tr>
+                <th>Ім'я</th>
+                <th>Фамілія</th>
+                <th>Телефон</th>
+                <th>Email адрес</th>
+            </tr>
+            <tr>
+                <th>Василь</th>
+                <th>Муран</th>
+                <th>0503535353</th>
+                <th>123123@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Сергій</th>
+                <th>Демчишин</th>
+                <th>0982777888</th>
+                <th>123123@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Олег</th>
+                <th>Стародубец</th>
+                <th>0992255888</th>
+                <th>123123@gmail.com</th>
+            </tr>
+            <tr>
+                <th>Марина</th>
+                <th>Гуменюк</th>
+                <th>0998877665</th>
+                <th>123123@gmail.com</th>
+            </tr>
+            
+        </tbody>
+    </table>
+    </div>
+<form >   
+    <p>  <input type="text" name="імя" size="20" placeholder="Ваше ім'я">  </p>
+       <p> <input type="text" name="прізвище" size="20" placeholder="Ваше прізвище"> </p>
+   
+
+        
+        <b><p> Оберіть стать</p></b>
+        <input type="radio" checked name="pol" value="M">
+        <label for="pol">M</label><br>
+        <input type="radio" name="pol" value="Ж" >
+        <label for="pol">Ж</label>
+    
+        <p><textarea name="coment" cols="35" rows="5"  placeholder="Залиште свій коментар..."></textarea></p>
+        
+        <p><select name="mistо" id="">
+             <option hidden selected disabled value="Виберіть місто">Виберіть місто</option>
+             <option value="Lviv" label="Львів"></option>
+             <option value="Kyiv" label="Київ"></option>
+             <option value="Odessa" label="Одеса"></option>
+             <option value="Kharkiv" label="Харків"></option>
+         </select>   
+        </p>
+         <p><input type="checkbox" name="mova" id="" value="Українська">Українська</p> 
+         <p><input type="checkbox" name="mova" id="" value="Англійська">Англійська</p>
+         <p><input type="checkbox" name="mova" id="" value="Іспанська">Іспанська</p>
+
+        <button>Надіслати</button>
+</form>
+    
+</body>
+</html>
